@@ -1,0 +1,65 @@
+html,
+body,
+#root,
+.app,
+.board {
+  min-height: 100vh;
+}
+
+body {
+  margin: 0;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  box-sizing: border-box;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+button,
+input,
+select,
+textarea {
+  cursor: pointer;
+  color: inherit;
+  background-color: inherit;
+  transition: 0.3s;
+}
+
+select:focus,
+input:focus,
+textarea:focus {
+  outline: 1px solid #00008B;
+}
+
+input[type="checkbox"] {
+  accent-color: #00008B;
+}
+
+.light {
+  color: #000112;
+}
+
+.none {
+  display: none;
+}
+
+.dimmed {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.scroll-none {
+  overflow: hidden;
+}
+
+*::-webkit-scrollbar {
+  display: none;
+}
+
+* {
+  -ms-overflow-style: none; 
+  scrollbar-width: none;
+}

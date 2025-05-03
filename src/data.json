@@ -1,0 +1,70 @@
+{
+  "boards": [
+    {
+      "name": "Product Development",
+      "isActive": false,
+      "columns": [
+        {
+          "name": "ToDo",
+          "tasks": [
+            {
+              "title": "Run performance testing",
+              "description": "Before release, we need to conduct thorough testing to ensure stability across all major devices and browsers.",
+              "status": "ToDo",
+              "subtasks": [
+                {
+                  "title": "Load testing",
+                  "isCompleted": false
+                },
+                {
+                  "title": "Cross-browser validation",
+                  "isCompleted": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "In Progress",
+          "tasks": [
+            {
+              "title": "Integrate user authentication",
+              "description": "",
+              "status": "In Progress",
+              "subtasks": [
+                {
+                  "title": "OAuth setup",
+                  "isCompleted": true
+                },
+                {
+                  "title": "Password recovery",
+                  "isCompleted": true
+                },
+                {
+                  "title": "2FA implementation",
+                  "isCompleted": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Done",
+          "tasks": [
+            {
+              "title": "Test low-fidelity prototypes",
+              "description": "Collect qualitative data on initial designs with users to assess direction.",
+              "status": "Done",
+              "subtasks": [
+                {
+                  "title": "Conduct 5 prototype evaluations",
+                  "isCompleted": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
